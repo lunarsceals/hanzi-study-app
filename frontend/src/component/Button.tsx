@@ -6,7 +6,7 @@ interface props {
 
 const Button = ({ onClick, className, text }: props) => {
   return (
-    <button className={`w-10 h-10 ${className} `} onClick={onClick}>
+    <button className={`${className} `} onClick={onClick}>
       {text}
     </button>
   );
