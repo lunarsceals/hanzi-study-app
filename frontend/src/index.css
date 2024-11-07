@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --light-background: #eeece9;
+  --dust-black: #2b2b2b;
+  --coal-black: #222222;
+  --dull-pink: #a5909b;
+  --dull-green: #7e887b;
+  --dull-orange: #c3926d;
+  --dull-blue: #c1c9d3;
+}
+
+/* //ToDo add Dark mode themes
+[data-theme="dark"] {
+
+} */

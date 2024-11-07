@@ -2,7 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "light-background": "var(--light-background)",
+        "dust-black": "var(--dust-black)",
+        "coal-black": "var(--coal-black)",
+        "dull-pink": "var(--dull-pink)",
+        "dull-green": "var(--dull-green)",
+        "dull-organge": "var(--dull-orange)",
+        "dull-blue": "var(--dull-blue)",
+      },
+    },
   },
   plugins: [],
 };
