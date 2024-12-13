@@ -1,11 +1,20 @@
-import Button from "./component/Button";
-import "./index.css";
-// import Character from "./component/Character";
+// import Button from "./component/ui/Button";
+// import Character from "./component/ui/Character";
+import Header from "./component/Header";
+import NavSideBar from "./component/NavSideBar";
 
 function App() {
   return (
-    <div>
-      <Button text="click me" className="bg-background" />
+    <div className="min-h-dvh bg-light-background">
+      <header>
+        <Header />
+      </header>
+      <section>
+        <NavSideBar />
+      </section>
+      <main>
+        <div></div>
+      </main>
     </div>
   );
 }

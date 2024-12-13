@@ -6,6 +6,7 @@ export default {
       colors: {
         "light-background": "var(--light-background)",
         "dust-black": "var(--dust-black)",
+        "dust-gray": "var(--dust-gray)",
         "coal-black": "var(--coal-black)",
         "dull-pink": "var(--dull-pink)",
         "dull-green": "var(--dull-green)",
