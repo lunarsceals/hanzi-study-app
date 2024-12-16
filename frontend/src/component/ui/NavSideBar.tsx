@@ -1,3 +1,5 @@
-export default function NavSideBar() {
-  return <div>sidebar</div>;
-}
+const NavSideBar = () => {
+  return <section>sidebar</section>;
+};
+
+export default NavSideBar;

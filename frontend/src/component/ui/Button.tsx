@@ -4,10 +4,12 @@ interface props {
   text?: string;
 }
 
-export default function Button({ onClick, className, text }: props) {
+const Button = ({ onClick, className, text }: props) => {
   return (
     <button className={`${className} `} onClick={onClick}>
       {text}
     </button>
   );
-}
+};
+
+export default Button;
